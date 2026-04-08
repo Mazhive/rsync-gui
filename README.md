@@ -24,24 +24,22 @@ Alt+S: Run a simulation (--dry-run) to test your settings safely.
 🛠️ Installation & Compilation
 This project is built using Qt5 and CMake. Ensure the following dependencies are installed on your Linux system:
 
-Bash
 sudo apt update
+
 sudo apt install build-essential cmake qtbase5-dev sshpass rsync
+
 Build from Source
 Clone the repository:
 
-Bash
 git clone https://github.com/YOUR_USERNAME/RemotePull-Pro.git
 cd RemotePull-Pro/c++
 Create a build directory and compile:
 
-Bash
 mkdir build && cd build
 cmake ..
 make
 Run the application:
 
-Bash
 ./RemotePull
 
 
@@ -56,11 +54,18 @@ I believe software should be freely shareable and modifiable to foster collabora
 Therefore, this project is not "open source" by the official Open Source Initiative (OSI) definition, as it prohibits commercial use. Instead, it is source-available.
 
 What You Can Do
+
 ✅ Share this code.
+
 ✅ Modify and adapt this code for your projects.
+
 ✅ Use this code personally or in non-commercial settings.
+
 What You Cannot Do
+
+
 ❌ Use this code in any commercial product or service.
+
 ❌ Claim this code as your own.
 
 Attribution
