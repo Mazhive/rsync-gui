@@ -1,42 +1,14 @@
-RemotePull Pro - Rsync Manager
-RemotePull Pro is a powerful, C++/Qt-based GUI for rsync. Inspired by the clarity and simplicity of Grsync, this tool provides an intuitive interface for synchronizing files between local directories or across remote servers via SSH.
+rsync-gui
+A rsync wrapper gui
+Description
+RemotePull Pro - Rsync ManagerRemotePull Pro is een krachtige, C++/Qt-gebaseerde GUI voor rsync. Geïnspireerd door de overzichtelijkheid van Grsync, biedt deze tool een intuïtieve interface om bestanden te synchroniseren tussen lokale mappen of via SSH naar remote servers.🚀 FunctiesHybride Sync: Ondersteuning voor zowel lokale kopieertaken als remote SSH-overdrachten. Grsync-stijl Interface: Gebruiksvriendelijke tabbladen voor basisinstellingen, uitgebreide rsync-parameters en handmatige extra opties.Real-time Feedback: Een apart voortgangsvenster met een live log-venster, voortgangsbalk, snelheid en ETA.Veiligheid: Integratie met sshpass voor geautomatiseerde SSH-wachtwoordverwerking (met ondersteuning voor StrictHostKeyChecking=no).Sneltoetsen:Ctrl+S / Ctrl+D: Browse naar bron of doel.Alt+R: Bekijk het gegenereerde rsync-commando (handig voor debugging).Alt+S: Voer een simulatie uit (--dry-run).🛠️ Installatie & CompilatieDit project maakt gebruik van Qt5 en CMake. Zorg ervoor dat de benodigde tools zijn geïnstalleerd op je Linux-systeem:
 
-🚀 Key Features
-Hybrid Sync: Seamlessly handle both local copy tasks and remote SSH transfers.
+sudo apt update sudo apt install build-essential cmake qtbase5-dev sshpass rsync
 
-Grsync-Inspired UI: User-friendly tabbed interface for basic settings, advanced rsync parameters, and manual extra options.
+Bouwen vanuit broncodeClone de repository:
 
-Real-time Feedback: Dedicated progress window featuring a live log, progress bar, transfer speed, and ETA.
+git clone https://github.com/JOUW_GEBRUIKERSNAAM/RemotePull-Pro.git cd RemotePull-Pro/c++ Maak een build-map aan en compileer:
 
-Security: Integrated with sshpass for automated SSH password handling (includes support for StrictHostKeyChecking=no).
+mkdir build && cd build cmake .. make Start de applicatie:
 
-Power-User Shortcuts:
-
-Ctrl+S / Ctrl+D: Quickly browse for source or destination paths.
-
-Alt+R: View the generated rsync command line (perfect for debugging).
-
-Alt+S: Run a simulation (--dry-run) to test your settings safely.
-
-🛠️ Installation & Compilation
-This project is built using Qt5 and CMake. Ensure the following dependencies are installed on your Linux system:
-
-Bash
-sudo apt update
-sudo apt install build-essential cmake qtbase5-dev sshpass rsync
-Build from Source
-Clone the repository:
-
-Bash
-git clone https://github.com/YOUR_USERNAME/RemotePull-Pro.git
-cd RemotePull-Pro/c++
-Create a build directory and compile:
-
-Bash
-mkdir build && cd build
-cmake ..
-make
-Run the application:
-
-Bash
 ./RemotePull
