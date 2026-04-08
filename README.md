@@ -1,8 +1,8 @@
 # rsync-gui
 # A rsync wrapper gui #
 
-RemotePull Pro - Rsync Manager
-RemotePull Pro is a powerful, C++/Qt-based GUI for rsync. Inspired by the clarity and simplicity of Grsync, this tool provides an intuitive interface for synchronizing files between local directories or across remote servers via SSH.
+RemotePull  - Rsync Manager
+RemotePull  is a powerful, C++/Qt-based GUI for rsync. Inspired by the clarity and simplicity of Grsync, this tool provides an intuitive interface for synchronizing files between local directories or across remote servers via SSH.
 
 🚀 Key Features
 Hybrid Sync: Seamlessly handle both local copy tasks and remote SSH transfers.
