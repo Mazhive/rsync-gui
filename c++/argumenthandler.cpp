@@ -8,7 +8,6 @@ ArgumentHandler::ArgumentHandler(const QCoreApplication &app) {
     parser.addHelpOption();
     parser.addVersionOption();
 
-    // DIT IS DE FIX: 
     // Vertel de parser dat hij onbekende opties (zoals --delete) niet moet 
     // proberen te verwerken, maar gewoon moet overslaan/doorlaten.
     parser.setOptionsAfterPositionalArgumentsMode(QCommandLineParser::ParseAsPositionalArguments);
