@@ -1,5 +1,5 @@
 # rsync-gui
-A rsync wrapper gui #
+# A rsync wrapper gui #
 
 ## Description
 A brief description of your project, its purpose, and what problem it solves.
