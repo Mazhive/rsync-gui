@@ -2,7 +2,29 @@
 # A rsync wrapper gui #
 
 ## Description
-A brief description of your project, its purpose, and what problem it solves.
+RemotePull Pro - Rsync ManagerRemotePull Pro is een krachtige, C++/Qt-gebaseerde GUI voor rsync. Geïnspireerd door de overzichtelijkheid van Grsync, biedt deze tool een intuïtieve interface om bestanden te synchroniseren tussen lokale mappen of via SSH naar remote servers.🚀 FunctiesHybride Sync: Ondersteuning voor zowel lokale kopieertaken als remote SSH-overdrachten.
+Grsync-stijl Interface: 
+Gebruiksvriendelijke tabbladen voor basisinstellingen, uitgebreide rsync-parameters en handmatige extra opties.Real-time Feedback: Een apart voortgangsvenster met een live log-venster, voortgangsbalk, snelheid en ETA.Veiligheid: Integratie met sshpass voor geautomatiseerde SSH-wachtwoordverwerking (met ondersteuning voor StrictHostKeyChecking=no).Sneltoetsen:Ctrl+S / Ctrl+D: Browse naar bron of doel.Alt+R: Bekijk het gegenereerde rsync-commando (handig voor debugging).Alt+S: Voer een simulatie uit (--dry-run).🛠️ Installatie & CompilatieDit project maakt gebruik van Qt5 en CMake. Zorg ervoor dat de benodigde tools zijn geïnstalleerd op je Linux-systeem:
+
+sudo apt update
+sudo apt install build-essential cmake qtbase5-dev sshpass rsync
+
+Bouwen vanuit broncodeClone de repository:
+
+git clone https://github.com/JOUW_GEBRUIKERSNAAM/RemotePull-Pro.git
+cd RemotePull-Pro/c++
+Maak een build-map aan en compileer:
+
+mkdir build && cd build
+cmake ..
+make
+Start de applicatie:
+
+./RemotePull
+
+📸 Screenshots(Tip: Voeg hier de screenshots toe die je eerder hebt gemaakt door ze in een img map op GitHub te zetten)HoofdschermVoortgang⚙️ VereistenLinux OS: Getest op Debian-gebaseerde systemen (Wayland & X11).Rsync: Moet geïnstalleerd zijn op zowel de lokale machine als de remote server.Sshpass: Nodig voor remote synchronisatie met wachtwoord-authenticatie.
+
+
 
 ## License
 This project is released under a **custom source-available license**.
